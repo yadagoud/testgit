@@ -11,8 +11,9 @@ public class Test
       SimpleDateFormat ft2 = new SimpleDateFormat("E");
       SimpleDateFormat ft3 = new SimpleDateFormat("hh:mm:ss a");
       
-      System.out.println("The Current Date is " + ft1.format(dNow));
+      
       System.out.println("Today is " + ft2.format(dNow));
       System.out.println("The Current Time is " + ft3.format(dNow));
+      System.out.println("test here");
    }
 }  
